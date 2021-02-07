@@ -29,3 +29,7 @@ Set-5 first looks at **dense stereo reconstruction** and the **iterative PnP** a
 Please install the dependencies listed in `requirements.txt` before running the Jupyter Notebooks. Use of a virtual environment is recommended.
 
 _**Disclosure:** These implementations are part of an undergraduate course on Mobile Robotics, and are meant to be learning excersizes. They may not be the cleanest or most efficient of implementations._
+
+___
+__*To whoever needs to hear this (including me, from time to time):*__  
+*If a rotation matrix __R__ rotates a frame from blue to pink (say by +45 degrees about some axis), it (1) brings back points from pink to blue, or (2), within the blue (or pink, or any other) frame itself, rotates points by +45 degrees about the same axis.*
